@@ -6,20 +6,26 @@
 }
 
 /* Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
 
 /* Variaveis de Cor */
 :root {
+
+    --primary-color: #8f0101;
+    --secondary-color: #B81515;
 
     --background-primary-color: #f1f1f1;
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #1c1c1c;
 
-    --button-primary-color: #8f0101;
-    --button-secondary-color: #B81515;
-
     --text-primary-color: #222222;
     --text-secondary-color: #f1f1f1;
+
+    --titles-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 
 }
